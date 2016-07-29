@@ -4,7 +4,7 @@ var words = [
 ];
 
 var lettersFound = [];
-var currentWord = words[getRandom(words.length - 1)];
+var currentWord = words[getRandom(words.length)];
 var $wrapper = $('#app');
 
 init();
@@ -47,5 +47,5 @@ function checkKey(key) {
 }
 
 function getRandom(max) {
-    return Math.floor(Math.random() * (max + 1));
+    return Math.floor(Math.random() * max);
 }
