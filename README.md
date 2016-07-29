@@ -2,17 +2,18 @@
 
 Welcome to the third JavaScript workshop, organized by [tim.js][timjs].
 
-We will dive into the building blocks of the ECMAScript language, the so called "1st class citizens", explaining in detail how they work & why is it so important to understand them. We will cover some fundamental concepts of ES5, while also touching some new features added in ES6.
+This workshop focuses on various ways to organize your code, each of it with pros & cons. We will cover some fundamental concepts of ES5, while also touching some new features added in ES6.
 
 Tutor: __Andrei Pfeiffer__
 
 ## Content
 
-- __Intro__: short history, JS vs ES;
-- __Primitives__: types, typeof, type casting, falsey values;
-- __Arrays__: literals, stack, queue, filtering, iterating;
-- __Objects__: literals, enhanced literals, property descriptors, json;
-- __Functions__: types, returns, 1st class functions.
+- __Spaghetti Code__
+- __Main__
+- __Object Literals__
+- __Module Pattern__
+- __Revealing Module Pattern__
+- __ES6 Modules__
 
 ## What you need?
 
@@ -24,7 +25,7 @@ Here's a list of things you need:
 
 ## Who is it for?
 
-- Beginner & Intermediate JavaScript developers who want to discover the language at a deeper level
+- Intermediate & Advanced JavaScript developers who want to discover the language at a deeper level
 - Advanced developers, who switched to JavaScript and want to understand its mechanics
 
 ## Setup
@@ -52,7 +53,7 @@ Second, you need to clone this repository. You can do it in multiple ways:
 
 __a) with git:__
 ```
-git clone https://github.com/andreipfeiffer/timjs-workshop-01-javascript-citizens.git ./
+git clone https://github.com/andreipfeiffer/timjs-workshop-03-javascript-neighborhoods.git ./
 ```
 
 NOTE: if you have a GitHub account, you can fork this repo, so you can commit your personal changes.
@@ -77,6 +78,6 @@ npm start
 
 This should display a URL in the console, where you can load the project page.
 
-[download_repo]: https://github.com/andreipfeiffer/timjs-workshop-01-javascript-citizens/archive/master.zip
+[download_repo]: https://github.com/andreipfeiffer/timjs-workshop-03-javascript-neighborhoods/archive/master.zip
 [download_node]: https://nodejs.org/en/download/
 [timjs]: http://timjs.ro
