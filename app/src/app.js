@@ -3,4 +3,6 @@ var words = [
     { word: 'masa', description: 'se pun farfuriile pe ea' }
 ];
 
-APP.init( $('#app'), words );
+import { init } from 'src/app-es6-module.js';
+
+init( $('#app'), words );

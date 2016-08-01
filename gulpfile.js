@@ -11,6 +11,7 @@ const BASE_PATH = './app';
 
 // process JS files and return the stream
 gulp.task('jsSrc', ['clean'], () => {
+    /*
     // return the stream
     return gulp
         // read source files
@@ -28,12 +29,14 @@ gulp.task('jsSrc', ['clean'], () => {
         .pipe(sourcemaps.write('maps/'))    
         // output stream, containing
         .pipe(gulp.dest(`${BASE_PATH}/dist`));
+    */
 });
 
 // process JS vendor files
 gulp.task('jsVendor', ['clean'], () => {
     return gulp
         .src([
+            `${BASE_PATH}/vendor/system.js`,
             `${BASE_PATH}/vendor/jquery*.js`,
             `${BASE_PATH}/vendor/*.js`,
         ])
@@ -58,7 +61,12 @@ gulp.task('default', ['jsVendor', 'jsSrc'], () => {
     // Serve files from the root of our app
     browserSync.init({
         server: {
-            baseDir: BASE_PATH
+            // set the base url of the server
+            baseDir: BASE_PATH,
+            // serve files from node_modules also (which is outside "baseDir")
+            routes : {
+                '/node_modules': 'node_modules'
+            }
         }
     });
 
