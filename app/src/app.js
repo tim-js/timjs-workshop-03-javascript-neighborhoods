@@ -3,4 +3,4 @@ var words = [
     { word: 'masa', description: 'se pun farfuriile pe ea' }
 ];
 
-init( $('#app'), words );
+APP.init( $('#app'), words );
