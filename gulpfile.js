@@ -15,7 +15,8 @@ gulp.task('jsSrc', ['clean'], () => {
     return gulp
         // read source files
         .src([
-            `${BASE_PATH}/src/*.js`
+            `${BASE_PATH}/src/*.js`,
+            `${BASE_PATH}/src/app.js`
         ])
         // start sourcemaps
         .pipe(sourcemaps.init())
