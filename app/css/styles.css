@@ -20,3 +20,7 @@ ul {
     font-size: 2em;
     text-transform: uppercase;
   }
+
+a:hover {
+  text-decoration: none;
+}
