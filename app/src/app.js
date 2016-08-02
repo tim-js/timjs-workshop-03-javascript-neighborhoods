@@ -1,5 +1,7 @@
 var APP = (function() {
 
+    'use strict';
+
     var lettersFound = [];
     var currentWord, $wrapper;
 
