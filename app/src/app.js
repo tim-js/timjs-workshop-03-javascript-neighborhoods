@@ -7,24 +7,20 @@ var lettersFound = [];
 var currentWord = words[getRandom(words.length)];
 var $wrapper = $('#app');
 
-init();
+$wrapper.append('<ul>');
 
-function init() {
-    $wrapper.append('<ul>');
+currentWord.word.split('').forEach(function(letter) {
+    $wrapper.find('ul').append('<li>_</li>');
+});
 
-    currentWord.word.split('').forEach(function(letter) {
-        $wrapper.find('ul').append('<li>_</li>');
-    });
+$('<q>')
+    .text( currentWord.description )
+    .appendTo( $wrapper );
 
-    $('<q>')
-        .text( currentWord.description )
-        .appendTo( $wrapper );
-
-    $('body').on('keyup', function(e) {
-        var key = String.fromCharCode(e.which).toLowerCase();
-        checkKey( key );
-    });
-}
+$('body').on('keyup', function(e) {
+    var key = String.fromCharCode(e.which).toLowerCase();
+    checkKey( key );
+});
 
 function checkKey(key) {
     var index = currentWord.word.indexOf(key);
