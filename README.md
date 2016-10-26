@@ -2,14 +2,15 @@
 
 Welcome to the third JavaScript workshop, organized by [tim.js][timjs].
 
-This workshop focuses on various ways to organize your code, each of it with pros & cons. We will cover some fundamental concepts of ES5, while also touching some new features added in ES6.
+This workshop focuses on various ways to organize your code, each with it's own pros & cons. We will cover fundamental ES5 concepts, while also touching some new features added since ES6.
+
+Total Time: __6 hours__ (including breaks & lunch)
 
 Tutor: __Andrei Pfeiffer__
 
 ## Content
 
 - __Spaghetti Code__
-- __Main__
 - __Object Literals__
 - __Module Pattern__
 - __Revealing Module Pattern__
@@ -20,13 +21,13 @@ Tutor: __Andrei Pfeiffer__
 Here's a list of things you need:
 
 1. a laptop & power-plug
-2. a code editor (_optional_)
-3. [Node.js][download_node] 4.0+ (_optional_)
+2. a code editor
+3. [Node.js][download_node] 6.0+
 
 ## Who is it for?
 
-- Intermediate & Advanced JavaScript developers who want to discover the language at a deeper level
-- Advanced developers, who switched to JavaScript and want to understand its mechanics
+- Intermediate & Advanced JavaScript developers, familiar with functions, arrays, objects, scope & context, that want to discover the language at a deeper level
+- Advanced developers, who switched to JavaScript and want to understand how to organize their code
 
 ## Setup
 
