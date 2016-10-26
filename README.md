@@ -6,7 +6,7 @@ This workshop focuses on various ways to organize your code, each with it's own 
 
 Total Time: __6 hours__ (including breaks & lunch)
 
-Tutor: __Andrei Pfeiffer__
+Instructor: __Andrei Pfeiffer__
 
 ## Content
 
@@ -26,8 +26,8 @@ Here's a list of things you need:
 
 ## Who is it for?
 
-- Intermediate & Advanced JavaScript developers, familiar with functions, arrays, objects, scope & context, that want to discover the language at a deeper level
-- Advanced developers, who switched to JavaScript and want to understand how to organize their code
+- __Intermediate & Advanced JavaScript developers__ (familiar with functions, arrays, objects, scope & context) that want to discover the language at a deeper level
+- __Advanced developers__, who switched to JavaScript and want to understand how to organize their code
 
 ## Setup
 
