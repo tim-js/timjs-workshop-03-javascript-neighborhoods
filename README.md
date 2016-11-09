@@ -14,6 +14,7 @@ Instructor: __Andrei Pfeiffer__
 - __Object Literals__
 - __Module Pattern__
 - __Revealing Module Pattern__
+- __Module systems & loaders__
 - __ES6 Modules__
 
 ## What you need?
@@ -26,8 +27,7 @@ Here's a list of things you need:
 
 ## Who is it for?
 
-- __Intermediate & Advanced JavaScript developers__ (familiar with functions, arrays, objects, scope & context) that want to discover the language at a deeper level
-- __Advanced developers__, who switched to JavaScript and want to understand how to organize their code
+- __Intermediate & Advanced JavaScript developers__ familiar with functions, arrays, objects, scope & context
 
 ## Setup
 
