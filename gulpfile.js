@@ -58,7 +58,10 @@ gulp.task('default', ['jsVendor', 'jsSrc'], () => {
     // Serve files from the root of our app
     browserSync.init({
         server: {
-            baseDir: BASE_PATH
+            baseDir: BASE_PATH,
+            //routes: {
+            //    '/node_modules': 'node_modules'
+            //}
         }
     });
 
